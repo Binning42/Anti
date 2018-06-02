@@ -1,0 +1,5 @@
+﻿Windows Registry Editor Version 5.00
+
+#关闭驱动自动更新（禁止更新）
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"ExcludeWUDriversInQualityUpdate"=dword:00000001
